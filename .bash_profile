@@ -25,3 +25,5 @@ update_ps1() {
   PS1+="wizeline:\w"
   PS1+="\n${red}$ ${reset}"
 }
+
+PROMPT_COMMAND=update_ps1
