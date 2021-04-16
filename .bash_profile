@@ -27,3 +27,5 @@ update_ps1() {
 }
 
 PROMPT_COMMAND=update_ps1
+
+set-option -g default-shell "/bin/bash"
